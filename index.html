@@ -22,7 +22,7 @@
   </head>
   <body>
     <!--Header website and navigation-->
-    <header class="header-border">
+    <header class="header--border">
       <div class="header container">
         <nav class="header__nav">
           <a class="header__logo" href="./index.html"
@@ -30,7 +30,9 @@
           >
           <ul class="header__menu">
             <li class="header__menu-item">
-              <a class="header__menu-link is-active" href="index.html"
+              <a
+                class="header__menu-link header__menu-link--active"
+                href="index.html"
                 >agencja</a
               >
             </li>
@@ -76,11 +78,11 @@
         </div>
       </section>
       <!--Our advantages section -->
-      <section class="section">
+      <section>
         <div class="container">
           <ul class="advantages">
             <li class="advantages__item">
-              <svg class="advantages__icons" width="270" height="120">
+              <svg class="advantages__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
               <h3 class="advantages__title">lorem Ipsum</h3>
@@ -91,7 +93,7 @@
               </p>
             </li>
             <li class="advantages__item">
-              <svg class="advantages__icons" width="270" height="120">
+              <svg class="advantages__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
               <h3 class="advantages__title">lorem Ipsum</h3>
@@ -102,7 +104,7 @@
               </p>
             </li>
             <li class="advantages__item">
-              <svg class="advantages__icons" width="270" height="120">
+              <svg class="advantages__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
               <h3 class="advantages__title">lorem Ipsum</h3>
@@ -113,7 +115,7 @@
               </p>
             </li>
             <li class="advantages__item">
-              <svg class="advantages__icons" width="270" height="120">
+              <svg class="advantages__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
               <h3 class="advantages__title">lorem Ipsum</h3>
@@ -126,42 +128,42 @@
           </ul>
         </div>
       </section>
-      <!--what we do section -->
+      <!--offer section -->
       <section class="section">
-        <div class="container what-we-do">
-          <h2 class="what-we-do__title">czym się zajmujemy</h2>
-          <ul class="what-we-do__cards">
-            <li class="what-we-do__card">
+        <div class="container offer">
+          <h2 class="section__header">czym się zajmujemy</h2>
+          <ul class="offer__cards">
+            <li class="offer__card">
               <img
                 src="images/ours-designs-are-create-in-HTML-5.jpg"
                 alt="website coding"
                 width="370"
                 height="294"
               />
-              <div class="what-we-do__overlay">
-                <p class="what-we-do__overlay-text">aplikacje komputerowe</p>
+              <div class="offer__overlay">
+                <p class="offer__text">aplikacje komputerowe</p>
               </div>
             </li>
-            <li class="what-we-do__card">
+            <li class="offer__card">
               <img
                 src="images/websites-are-designed-with-in-mind-about-mobile.jpg"
                 alt="projects for mobile"
                 width="370"
                 height="294"
               />
-              <div class="what-we-do__overlay">
-                <p class="what-we-do__overlay-text">aplikacje mobilne</p>
+              <div class="offer__overlay">
+                <p class="offer__text">aplikacje mobilne</p>
               </div>
             </li>
-            <li class="what-we-do__card">
+            <li class="offer__card">
               <img
                 src="images/palet-of-colors.jpg"
                 alt="colors"
                 width="370"
                 height="294"
               />
-              <div class="what-we-do__overlay">
-                <p class="what-we-do__overlay-text">rozwiązania graficzne</p>
+              <div class="offer__overlay">
+                <p class="offer__text">rozwiązania graficzne</p>
               </div>
             </li>
           </ul>
@@ -170,9 +172,9 @@
       <!--Our team-->
       <section class="team section">
         <div class="container">
-          <h2 class="team__main-title">nasz zespół</h2>
+          <h2 class="section__header">nasz zespół</h2>
           <ul class="team__cards">
-            <li class="team__card-item">
+            <li class="team__card">
               <img
                 src="images/john-doe-memeber-of-our-team-1.jpg"
                 alt="our employee John Doe"
@@ -181,54 +183,54 @@
               />
               <h3 class="team__title">john doe</h3>
               <p class="team__subtitle">product designer</p>
-              <ul class="team__icon-items">
-                <li class="team__icon-item">
+              <ul class="team__icons">
+                <li class="team__icon">
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__icon-item">
+                <li class="team__icon">
                   <a
                     href="https://twitter.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__icon-item">
+                <li class="team__icon">
                   <a
                     href="https://facebook.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__icon-item">
+                <li class="team__icon">
                   <a
                     href="https://www.linkedin.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="team__card-item">
+            <li class="team__card">
               <img
                 src="images/john-doe-memeber-of-our-team-2.jpg"
                 alt="our employee John Doe"
@@ -237,14 +239,14 @@
               />
               <h3 class="team__title">john doe</h3>
               <p class="team__subtitle">frondend developer</p>
-              <ul class="team__icon-items">
+              <ul class="team__icons">
                 <li class="team__icon-item">
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -255,7 +257,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -266,7 +268,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -277,14 +279,14 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="team__card-item">
+            <li class="team__card">
               <img
                 src="images/john-doe-memeber-of-our-team-3.jpg"
                 alt="our employee John Doe"
@@ -293,14 +295,14 @@
               />
               <h3 class="team__title">john doe</h3>
               <p class="team__subtitle">marketing</p>
-              <ul class="team__icon-items">
+              <ul class="team__icons">
                 <li class="team__icon-item">
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -311,7 +313,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -322,7 +324,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -333,14 +335,14 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="team__card-item">
+            <li class="team__card">
               <img
                 src="images/john-doe-memeber-of-our-team-4.jpg"
                 alt="our employee John Doe"
@@ -349,14 +351,14 @@
               />
               <h3 class="team__title">john doe</h3>
               <p class="team__subtitle">ui designer</p>
-              <ul class="team__icon-items">
+              <ul class="team__icons">
                 <li class="team__icon-item">
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -367,7 +369,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -378,7 +380,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -389,7 +391,7 @@
                     target="_blank"
                     class="team__icon-link"
                   >
-                    <svg class="team__icon" width="20" height="20">
+                    <svg class="team__icon-svg" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -402,7 +404,7 @@
       <!-- Our clients -->
       <section class="clients section">
         <div class="container">
-          <h2 class="clients__title">nasi klienci</h2>
+          <h2 class="section__header">nasi klienci</h2>
           <ul class="clients__items">
             <li class="clients__item">
               <a href="#" target="_blank" class="clients__link">
@@ -453,8 +455,8 @@
     <!--Website footer-->
     <footer class="footer">
       <div class="container">
-        <div class="footer__contact-wrapper">
-          <div class="footer__contact-container">
+        <div class="footer__wrapper">
+          <div class="footer__contact">
             <a class="footer__logo" href="./index.html"
               ><span class="logo__primary-part">web</span>Studio</a
             >
@@ -462,7 +464,7 @@
               <ul class="footer__contact">
                 <li class="footer__contact-item">
                   <a
-                    class="footer__contact-link footer__contact-link-location"
+                    class="footer__contact-link footer__contact-link--location"
                     href="https://goo.gl/maps/kYdDBKaU15SzFSr7A"
                     target="_blank"
                   >
@@ -485,9 +487,9 @@
             </address>
           </div>
           <div class="footer__social">
-            <h2 class="footer__title">dołącz do nas</h2>
-            <ul class="footer__icon-items">
-              <li class="footer__icon-item">
+            <h2 class="footer__social-title">dołącz do nas</h2>
+            <ul class="footer__icons">
+              <li class="footer__icon">
                 <a
                   href="https://www.instagram.com/"
                   target="_blank"
@@ -498,7 +500,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="footer__icon-item">
+              <li class="footer__icon">
                 <a
                   href="https://twitter.com/"
                   target="_blank"
@@ -509,7 +511,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="footer__icon-item">
+              <li class="footer__icon">
                 <a
                   href="https://facebook.com/"
                   target="_blank"
@@ -520,7 +522,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="footer__icon-item">
+              <li class="footer__icon">
                 <a
                   href="https://www.linkedin.com/"
                   target="_blank"
@@ -556,7 +558,7 @@
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="close-btn" data-modal-close>
+        <button class="modal__close-btn" data-modal-close>
           <svg width="17" height="17">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>

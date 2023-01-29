@@ -28,8 +28,18 @@
 .is-hidden {
   display: none;
 }
-.close-btn {
-  @include close-btn;
+.modal__close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: $primaryColor;
+  border-radius: 50px;
+  border: 1px solid $borderCloseModal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:hover {
     cursor: pointer;
   }

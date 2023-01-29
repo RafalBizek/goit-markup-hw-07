@@ -2,16 +2,30 @@
   margin: 0 40px;
 }
 .form__title {
-  @include form-title;
+  font-size: 20px;
+  line-height: 1.17;
+  color: $secondaryColor;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 12px;
   &::first-letter {
     text-transform: uppercase;
   }
 }
 .form__item {
-  @include form-item;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
 }
 .form__label {
-  @include form-label;
+  font-size: 12px;
+  line-height: 1.17;
+  color: $textColor;
+  margin-bottom: 4px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
 }
 .form__input,
 .form__textarea {
@@ -30,7 +44,10 @@
   left: 13px;
 }
 .form__textarea {
-  @include form-textarea;
+  height: 120px;
+  resize: none;
+  margin-bottom: 20px;
+  padding: 12px 16px;
 }
 .form__textarea::placeholder {
   color: $placeholderTextarea;
@@ -51,7 +68,16 @@
   cursor: pointer;
 }
 .form__label--rules::before {
-  @include form-checkbox;
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 2px solid $secondaryColor;
+  border-radius: 2px;
+  position: absolute;
+  left: -20px;
+  bottom: 2px;
+  cursor: pointer;
 }
 .form__rules:checked + .form__label--rules::before {
   background-color: $accentColor;
@@ -78,7 +104,23 @@
   }
 }
 .form__btn {
-@include form-button;
+  padding: 10px 76px;
+  border: none;
+  border-radius: 4px;
+  background-color: $accentColor;
+  color: $primaryColor;
+  font-size: 16px;
+  line-height: 1.87;
+  position: absolute;
+  left: 164px;
+  bottom: 40px;
+  filter: drop-shadow(0px 4px 4px $shadowColor);
+  &::first-letter {
+    text-transform: uppercase;
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }
 .form__input:focus-within + .form__icon {
   fill: $accentColor;

@@ -1,12 +1,8 @@
-.what-we-do {
-  &__title {
-    @include title-section;
-  }
-  &::first-letter {
-    text-transform: uppercase;
-  }
+.offer {
   &__cards {
-    @include grid;
+    display: flex;
+    gap: $spaceGap;
+    flex-wrap: wrap;
   }
   &__card {
     max-width: 370px;
@@ -20,7 +16,7 @@
     position: absolute;
     bottom: 4px;
   }
-  &__overlay-text {
+  &__text {
     color: $primaryColor;
     text-transform: uppercase;
     line-height: 1.17;
