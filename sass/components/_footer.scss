@@ -7,6 +7,13 @@
   &__contact-item &__contact-link--location {
     color: $primaryColor;
   }
+  &__contact-link--location {
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  &__contact-link--location:first-letter {
+    text-transform: lowercase;
+  }
   &__contact-item:not(:last-child) {
     margin-bottom: 9px;
   }

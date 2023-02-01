@@ -1,5 +1,4 @@
-.header__logo {
-  margin-right: 93px;
+.logo {
   text-decoration: none;
   font-family: $secondaryFont;
   font-size: 26px;
@@ -7,15 +6,12 @@
   line-height: 1.38;
   color: $logoColor;
 }
-.footer__logo {
-  font-family: $secondaryFont;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.38;
-  color: $logoColor;
+.logo-header {
+  margin-right: 93px;
+}
+.logo-footer {
   padding-top: 60px;
   margin-bottom: 20px;
   display: inline-block;
   color: $primaryColor;
-  text-decoration: none;
 }
